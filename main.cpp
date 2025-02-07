@@ -39,9 +39,9 @@ int main() {
     /*int a,b,c;
     cout<<"Enter the three numbers: "<<endl;
     cin>>a>>b>>c;
-    if (a>b && a>c){
+    if (a>=b && a>=c){
         cout<<"The biggest number is: "<<a<<endl;
-}else if (b>c && b>a) {
+}else if (b>=c && b>=a) {
     cout<<"The biggest number is "<<c<<endl;
 }   else
     cout<<"The biggest number is "<<c<<endl;*/
