@@ -140,14 +140,15 @@ else{ cout<<"The trienge is invalid";}*/
 char letter;
 cout<<"Harf kirting";
 cin>>letter;
-if(isalpha(letter)){
-if(isupper(letter)){
-cout<<"Uppercase alphabet"<<endl;
-} else if(islower(letter)){
-cout<<"Lowercase alphabet"<<endl;
+if(isalpha(letter)) {
+    if(isupper(letter)){
+        cout<<"Uppercase alphabet"<<endl;
+    } else if(islower(letter)){
+        cout<<"Lowercase alphabet"<<endl;
+    }
 } else {
    cerr<<"It is not an alphabet!"<<endl;}
-}
+
 //problem14
 /*float price1, price2;
 int weight1, weight2;
