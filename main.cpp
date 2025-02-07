@@ -93,7 +93,9 @@ int main() {
         cout<<"Go!"<<endl;
     else if (harf=='y')
         cout<<"Get ready!"<<endl;
-    else cout<<"Stop";*/
+    else if (harf=='r')
+        cout<<"Stop";
+    else cout<<"Wrong input";
 
 //problem10
 /*int grade;
